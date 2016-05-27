@@ -2,6 +2,9 @@
 
 rm -rf *
 
+echo ${TREE_NAME}
+echo ${GIT_DESCRIBE}
+echo ${ARCH_LIST}
 
 if [ $PUBLISH != true ]; then
   echo "Skipping publish step.  PUBLISH != true."
